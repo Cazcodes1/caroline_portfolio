@@ -1,0 +1,46 @@
+.logo {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.navbar-cc {
+  background-color: #484e60;
+  font-size: larger;
+  padding: 3px;
+  row-gap: 10px;
+}
+
+.nav-link {
+  color: #ffd9ef;
+}
+
+.nav-link:hover {
+  color: #f86eb8;
+}
+
+.navbar-nav .nav-link.active {
+  color: #db94d5;
+}
+
+.navbar-nav {
+  justify-items: right;
+}
+
+ul.navbar-nav {
+  padding: 10px;
+  color: #f86eb8;
+}
+ul.navbar-nav:hover {
+  padding: 10px;
+  color: #f86eb8;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 300px;
+  }
+}
