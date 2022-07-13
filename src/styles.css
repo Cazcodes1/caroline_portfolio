@@ -1,8 +1,13 @@
 :root {
   ---section-bg-color: hsl(325, 100%, 93%);
   ---primary-font-family: "Rubik", sans-serif;
+  ---secondary-font-family: "Comfortaa", cursive;
+  ---primary-font-color: rgb(150, 73, 138);
 }
 
+body {
+  background-color: #c0c0c0;
+}
 .logo {
   max-width: 350px;
   max-height: 350px;
@@ -48,4 +53,18 @@ ul.navbar-nav:hover {
     align-items: center;
     margin-left: 300px;
   }
+}
+
+.one,
+.two {
+  font-family: var(---primary-font-family);
+  font-size: 24px;
+  color: var(---primary-font-color);
+}
+
+.headings {
+  font-weight: 700;
+}
+.image-lp {
+  max-width: 600px;
 }
