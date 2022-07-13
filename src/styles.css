@@ -10,12 +10,25 @@
 body {
   background-color: #c0c0c0;
 }
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 19px;
+}
 .logo {
   max-width: 350px;
   max-height: 350px;
 }
 .container-fluid {
   flex-direction: row;
+}
+
+span.navbar-toggler-icon {
+  width: 40px !important;
+  height: 40px !important;
 }
 
 .navbar-cc {
@@ -103,8 +116,4 @@ ul.navbar-nav:hover {
   color: var(---link-hover-color) !important;
   transition: ease-in-out 0.2s;
   font-size: 15px;
-}
-.lplink-position {
-  margin-top: 50px;
-  margin-right: 460px;
 }
