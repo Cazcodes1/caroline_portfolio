@@ -3,6 +3,8 @@
   ---primary-font-family: "Rubik", sans-serif;
   ---secondary-font-family: "Comfortaa", cursive;
   ---primary-font-color: rgb(150, 73, 138);
+  ---box-shadow-links: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  ---link-hover-color: #7a017a;
 }
 
 body {
@@ -12,12 +14,19 @@ body {
   max-width: 350px;
   max-height: 350px;
 }
+.container-fluid {
+  flex-direction: row;
+}
 
 .navbar-cc {
   font-family: var(---primary-font-family);
   background-color: #484e60;
   font-size: 1.25rem;
   padding: 5px 5px 5px 5px;
+  max-width: 100%;
+}
+.navbar-brand {
+  max-width: 100%;
 }
 
 .nav-link {
@@ -64,7 +73,38 @@ ul.navbar-nav:hover {
 
 .headings {
   font-weight: 700;
+  color: var(---link-hover-color);
 }
 .image-lp {
   max-width: 600px;
+}
+.link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #484e60;
+}
+
+.link {
+  display: block;
+  margin: auto;
+  max-width: fit-content;
+  text-align: center;
+  border-style: line;
+  color: var(---primary-font-color);
+  font-weight: 800;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(---section-bg-color);
+  box-shadow: var(---box-shadow-links);
+}
+.link:hover {
+  color: var(---link-hover-color) !important;
+  transition: ease-in-out 0.2s;
+  font-size: 15px;
+}
+.lplink-position {
+  margin-top: 50px;
+  margin-right: 460px;
 }
