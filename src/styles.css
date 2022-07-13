@@ -1,17 +1,22 @@
+:root {
+  ---section-bg-color: hsl(325, 100%, 93%);
+  ---primary-font-family: "Rubik", sans-serif;
+}
+
 .logo {
   max-width: 350px;
   max-height: 350px;
 }
 
 .navbar-cc {
+  font-family: var(---primary-font-family);
   background-color: #484e60;
-  font-size: larger;
-  padding: 3px;
-  row-gap: 10px;
+  font-size: 1.25rem;
+  padding: 5px 5px 5px 5px;
 }
 
 .nav-link {
-  color: #ffd9ef;
+  color: hsl(325, 100%, 93%);
 }
 
 .nav-link:hover {
