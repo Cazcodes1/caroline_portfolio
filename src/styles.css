@@ -2,7 +2,8 @@
   ---section-bg-color: hsl(325, 100%, 93%);
   ---primary-font-family: "Rubik", sans-serif;
   ---secondary-font-family: "Comfortaa", cursive;
-  ---primary-font-color: rgb(150, 73, 138);
+  ---alternative-font-family: "Lexend Deca", sans-serif;
+  ---primary-font-color: rgb(143, 69, 132);
   ---box-shadow-links: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   ---link-hover-color: #7a017a;
 }
@@ -17,6 +18,7 @@ h2 {
 
 p {
   font-size: 19px;
+  margin: 46px auto;
 }
 .logo {
   max-width: 350px;
@@ -79,14 +81,15 @@ ul.navbar-nav:hover {
 
 .one,
 .two {
-  font-family: var(---primary-font-family);
-  font-size: 24px;
+  font-family: var(---alternative-font-family);
+  font-size: 22px;
   color: var(---primary-font-color);
 }
 
 .headings {
   font-weight: 700;
-  color: var(---link-hover-color);
+  font-family: var(---alternative-font-family);
+  color: var(---primary-font-colorr);
 }
 .image-lp {
   max-width: 600px;
