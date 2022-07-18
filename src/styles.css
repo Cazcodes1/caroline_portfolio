@@ -5,11 +5,12 @@
   ---alternative-font-family: "Lexend Deca", sans-serif;
   ---primary-font-color: #484e60;
   ---box-shadow-links: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  ---link-hover-color: #ee39a9;
+  ---link-hover-color: #b332ac;
+  ---accent-font-color: rgb(243, 56, 143);
 }
 
 body {
-  background-color: #c0c0c0;
+  background-color: #d4d4d4;
 }
 
 h1 {
@@ -33,16 +34,16 @@ header {
 
 .hello {
   text-align: center;
-  margin-bottom: 21px;
+  margin-bottom: 12px;
 }
 
 h3 {
   font-family: var(---primary-font-family);
-  font-size: 45px;
+  font-size: 55px;
   color: var(---section-bg-color);
 }
 .name {
-  color: var(---link-hover-color);
+  color: var(---accent-font-color);
 }
 
 .logo {
@@ -108,7 +109,7 @@ ul.navbar-nav:hover {
 .headings {
   font-weight: 700;
   font-family: var(---alternative-font-family);
-  color: var(---primary-font-colorr);
+  color: var(---accent-font-color);
 }
 .image-lp {
   max-width: 600px;
