@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #d4d4d4;
+  background-color: #e7e7e7;
 }
 
 h1 {
@@ -136,7 +136,7 @@ ul.navbar-nav:hover {
   box-shadow: var(---box-shadow-links);
 }
 .link:hover {
-  color: var(---link-hover-color) !important;
+  color: var(---accent-font-color) !important;
   transition: ease-in-out 0.2s;
   font-size: 15px;
 }
