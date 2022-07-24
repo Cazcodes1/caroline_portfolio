@@ -47,7 +47,7 @@ h3 {
 }
 
 .logo {
-  display: block;
+  display: inline;
   margin: 0 auto;
   max-width: 500px;
   max-height: 430px;
