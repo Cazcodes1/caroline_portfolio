@@ -182,8 +182,8 @@ ul.navbar-nav:hover {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: row-reverse;
+
+    flex-direction: column;
     align-content: center;
   }
 }
