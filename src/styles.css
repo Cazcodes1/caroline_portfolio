@@ -1,16 +1,16 @@
 :root {
-  ---section-bg-color: hsl(325, 100%, 93%);
+  ---section-bg-color: rgb(13 110 253 / 0%);
   ---primary-font-family: "Rubik", sans-serif;
   ---secondary-font-family: "Comfortaa", cursive;
   ---alternative-font-family: "Lexend Deca", sans-serif;
   ---primary-font-color: #484e60;
   ---box-shadow-links: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   ---link-hover-color: #b332ac;
-  ---accent-font-color: rgb(243, 56, 143);
+  ---accent-font-color: #a3c3ff;
 }
 
 body {
-  background-color: #e7e7e7;
+  background-color: #adb8cdf5;
 }
 
 h1 {
@@ -39,7 +39,7 @@ h3 {
   margin-right: 10px;
   font-family: var(---primary-font-family);
   font-size: 55px;
-  color: var(---section-bg-color);
+  color: #ffdaf7;
 }
 .name {
   color: var(---accent-font-color);
@@ -84,7 +84,7 @@ button.navbar-toggler {
 }
 
 .nav-link:hover {
-  color: #f86eb8;
+  color: var(---accent-font-color);
 }
 
 .navbar-nav .nav-link.active {
@@ -117,7 +117,7 @@ ul.navbar-nav:hover {
 .headings {
   font-weight: 700;
   font-family: var(---alternative-font-family);
-  color: var(---accent-font-color);
+  color: var(---primary-font-color);
 }
 .image-lp {
   max-width: 600px;
@@ -144,7 +144,7 @@ ul.navbar-nav:hover {
   box-shadow: var(---box-shadow-links);
 }
 .link:hover {
-  color: var(---accent-font-color) !important;
+  color: var(---link-hover-color) !important;
   transition: ease-in-out 0.2s;
   font-size: 15px;
 }
