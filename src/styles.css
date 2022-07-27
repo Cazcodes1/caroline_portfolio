@@ -7,16 +7,12 @@
   --third-font-family: "Fredericka the Great", cursive;
   ---primary-font-color: #484e60;
   ---box-shadow-links: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  ---link-hover-color: #b332ac;
-  ---accent-font-color: #ca108bf7;
+  ---link-hover-color: #fc74c3;
+  ---accent-font-color: hsl(325, 52%, 47%);
 }
 
 body {
-  background: linear-gradient(
-    109.6deg,
-    rgb(177, 173, 219) 11.2%,
-    rgb(245, 226, 226) 91.1%
-  );
+  background: #bbbbbb57;
 }
 
 h1 {
@@ -29,14 +25,16 @@ h2 {
 
 p {
   font-size: 18px;
-  margin: 46px auto;
-  letter-spacing: -2px;
+  margin: 36px 14px;
+  letter-spacing: -1px;
   text-align: justify;
+  line-height: 20px;
 }
 
 .hello {
   display: flex;
-  margin-bottom: -1px;
+  margin-top: 28px;
+  margin-bottom: -20px;
   padding: 0px 40px;
   flex-direction: column;
   align-items: flex-end;
@@ -47,16 +45,18 @@ h3 {
   margin-right: 10px;
   font-family: var(--third-font-family);
   font-size: 55px;
-  color: hwb(0deg 0% 100% / 60%);
+  color: hwb(0deg 0% 100% / 78%);
 }
 .name {
-  color: var(---accent-font-color);
+  color: #ca158e;
 }
 
 .logo {
   max-height: 250px;
-
-  margin: -99px -40px -60px;
+  max-height: 250px;
+  margin: -100px -40px -60px;
+  -webkit-filter: drop-shadow(-6px -39px -5px #484e60);
+  filter: drop-shadow(-7px 2px 4px #81767c);
 }
 .container-fluid {
   flex-direction: row;
@@ -84,19 +84,24 @@ button.navbar-toggler {
 }
 
 .navbar-cc {
-  background-color: #7d849875;
+  background: radial-gradient(
+    circle at 10% 30%,
+    rgb(251, 222, 238) 20%,
+    rgb(206, 201, 226) 80.3%
+  );
   font-size: 1.25rem;
+  margin-bottom: -13px;
 }
 
 .nav-link {
-  color: hsl(325, 100%, 93%);
+  color: hsl(325, 88%, 35%);
   line-height: 75px;
   letter-spacing: var(---letter-spacing);
   margin-left: 51px;
 }
 
 .nav-link:hover {
-  color: var(---accent-font-color);
+  color: var(---link-hover-color);
 }
 
 .navbar-nav .nav-link.active {
@@ -121,7 +126,7 @@ button.navbar-toggler {
 
 ul.navbar-nav {
   padding: 6px;
-  color: #f86eb8;
+  color: #9e115c;
 }
 ul.navbar-nav:hover {
   color: #f86eb8;
@@ -130,11 +135,11 @@ ul.navbar-nav:hover {
 .one,
 .two {
   font-family: var(---alternative-font-family);
-
   color: var(---primary-font-color);
 }
 
 .headings {
+  font-size: 26px;
   font-weight: 700;
   font-family: var(--third-font-family);
   color: var(---primary-font-color);
@@ -144,6 +149,7 @@ ul.navbar-nav:hover {
   max-width: 600px;
 }
 .link {
+  letter-spacing: -1px;
   font-size: 14px;
   text-decoration: none;
   color: #484e60;
@@ -230,6 +236,9 @@ ul.navbar-nav:hover {
   .img-fluid {
     max-inline-size: 113%;
     margin-left: -21px;
+  }
+  #tropical-weather {
+    margin-top: -40px;
   }
 }
 
