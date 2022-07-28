@@ -231,11 +231,12 @@ ul.navbar-nav:hover {
   }
   .nav-link {
     font-size: 18px;
-    font-size: 18px;
+    font-size: 23px;
     margin-left: -26px;
     margin-top: -34px;
     margin-bottom: -28px;
-    padding: 18px;
+    padding: 49px;
+    line-height: 36px;
   }
   .img-fluid {
     max-inline-size: 113%;
