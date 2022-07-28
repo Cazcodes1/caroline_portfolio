@@ -223,7 +223,11 @@ ul.navbar-nav:hover {
     padding: 3rem !important;
   }
   h3 {
-    font-size: 30px;
+    font-size: 25px;
+    margin-right: -7px;
+  }
+  .name {
+    text-align: right;
   }
   .nav-link {
     font-size: 18px;
