@@ -176,6 +176,7 @@ ul.navbar-nav:hover {
   transition: ease-in-out 0.2s;
   font-size: 15px;
 }
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -187,6 +188,7 @@ ul.navbar-nav:hover {
     flex-wrap: wrap;
   }
 }
+
 @media (max-width: 992px) {
   .row {
     flex-direction: column;
@@ -245,6 +247,95 @@ ul.navbar-nav:hover {
   #tropical-weather {
     margin-top: -40px;
   }
+}
+
+#contact-me {
+  margin: 65px 0 5px;
+  padding: 36px;
+  line-height: 29px;
+  letter-spacing: -2px;
+  font-size: 20px;
+  font-family: var(---alternative-font-family);
+  text-align: center;
+}
+
+#social-contact {
+  margin: -2px 0 5px;
+  padding: 25px;
+  line-height: 29px;
+  letter-spacing: -2px;
+  font-size: 20px;
+  font-family: var(---alternative-font-family);
+  text-align: center;
+}
+
+div.contact {
+  display: flex;
+  justify-content: center;
+  padding: 98px;
+}
+
+div.container.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.email,
+.social-heading {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+  font-family: var(--third-font-family);
+}
+
+.email-address {
+  display: flex;
+  justify-content: center;
+  color: var(---accent-font-color);
+  font-size: 28px;
+  font-family: var(--third-font-family);
+  text-decoration: underline;
+  margin-top: 21px;
+  margin-bottom: 76px;
+}
+
+.email-address:active:hover {
+  color: var(---accent-font-color);
+}
+
+.email-address:hover {
+  color: var(---link-hover-color);
+}
+
+.social {
+  display: flex;
+  max-width: 119px;
+  font-family: var(---alternative-font-family);
+  margin-bottom: 20px;
+}
+
+.thanks {
+  font-family: var(--third-font-family);
+  margin: -20px 0 5px;
+  padding: 36px;
+  font-size: 30px;
+  text-align: center;
+  color: var(---accent-font-color);
+}
+
+.attribute {
+  display: flex;
+  font-family: var(---primary-font-family);
+  padding: 120px;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.attribute-link {
+  font-size: 13px;
 }
 
 @media (max-width: 992px) {
