@@ -200,6 +200,8 @@ ul.navbar-nav:hover {
   .row-intro {
     padding: 0;
     width: 107%;
+    display: flex;
+    flex-direction: column-reverse;
   }
   p {
     font-size: 16px;
@@ -247,14 +249,41 @@ ul.navbar-nav:hover {
   #tropical-weather {
     margin-top: -40px;
   }
+  .how-to-contact {
+    font-size: 37px !important;
+  }
+  .social {
+    max-width: 60px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .thanks {
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-size: 22px;
+    padding: 5px;
+  }
+  .attribute {
+    padding: 34px !important;
+  }
+}
+
+.contact-information {
+  border-style: inset;
+  border: 0.5px solid #b682a057;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  background: radial-gradient(rgb(251, 222, 238) 30%, rgb(206, 201, 226) 80.3%);
+  box-shadow: inset var(---box-shadow-links);
 }
 
 #contact-me {
-  margin: 65px 0 5px;
+  margin: 26px 0 5px;
   padding: 36px;
   line-height: 29px;
   letter-spacing: -2px;
-  font-size: 20px;
+  font-size: 19px;
   font-family: var(---alternative-font-family);
   text-align: center;
 }
@@ -264,7 +293,7 @@ ul.navbar-nav:hover {
   padding: 25px;
   line-height: 29px;
   letter-spacing: -2px;
-  font-size: 20px;
+  font-size: 19px;
   font-family: var(---alternative-font-family);
   text-align: center;
 }
@@ -280,6 +309,7 @@ div.container.text-center {
   justify-content: center;
 }
 
+.how-to-contact,
 .email,
 .social-heading {
   display: flex;
@@ -288,6 +318,11 @@ div.container.text-center {
   font-size: 28px;
   text-decoration: none;
   font-family: var(--third-font-family);
+}
+.how-to-contact {
+  margin-top: 55px;
+  font-size: 50px;
+  color: var(---accent-font-color);
 }
 
 .email-address {
@@ -316,19 +351,32 @@ div.container.text-center {
   margin-bottom: 20px;
 }
 
+img.img-fluid.instagram,
+img.img-fluid.twitter,
+img.img-fluid.github {
+  max-width: 71px;
+  max-height: 62px;
+  padding: 8px;
+}
+
+.row.icons {
+  flex-direction: row;
+}
+
 .thanks {
   font-family: var(--third-font-family);
-  margin: -20px 0 5px;
+  margin: 36px 0 36px;
   padding: 36px;
   font-size: 30px;
   text-align: center;
   color: var(---accent-font-color);
+  letter-spacing: 0px;
 }
 
 .attribute {
   display: flex;
   font-family: var(---primary-font-family);
-  padding: 120px;
+  padding: 30px;
   align-content: space-between;
   align-items: center;
   flex-direction: column;
