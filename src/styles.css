@@ -168,7 +168,7 @@ ul.navbar-nav:hover {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background-color: var(---section-bg-color);
+  background-color: #ffc5e65c;
   box-shadow: var(---box-shadow-links);
 }
 .link:hover {
@@ -260,22 +260,24 @@ ul.navbar-nav:hover {
   .thanks {
     letter-spacing: 2px;
     line-height: 35px;
-    font-size: 22px;
-    padding: 5px;
+    padding: 11px;
   }
-  .attribute {
-    padding: 34px !important;
+}
+
+@media (max-width: 992px) {
+  p.thanks {
+    font-size: 21px;
   }
 }
 
 .contact-information {
   border-style: inset;
-  border: 0.5px solid #b682a057;
+  border: 0.5px solid rgb(0 0 0 / 15%);
   border-radius: 10px;
   margin-top: 80px;
   margin-bottom: 20px;
-  background: radial-gradient(rgb(251, 222, 238) 30%, rgb(206, 201, 226) 80.3%);
-  box-shadow: inset var(---box-shadow-links);
+  background: rgb(251 222 238 / 24%) 30%;
+  box-shadow: var(---box-shadow-links);
 }
 
 #contact-me {
@@ -319,6 +321,15 @@ div.container.text-center {
   text-decoration: none;
   font-family: var(--third-font-family);
 }
+
+h2.email {
+  margin-bottom: 30px !important;
+}
+
+h2.social-heading {
+  margin-top: 46px !important;
+}
+
 .how-to-contact {
   margin-top: 55px;
   font-size: 50px;
@@ -327,13 +338,11 @@ div.container.text-center {
 
 .email-address {
   display: flex;
-  justify-content: center;
+
   color: var(---accent-font-color);
-  font-size: 28px;
+  font-size: 17px;
   font-family: var(--third-font-family);
-  text-decoration: underline;
-  margin-top: 21px;
-  margin-bottom: 76px;
+  text-decoration: none;
 }
 
 .email-address:active:hover {
@@ -343,20 +352,26 @@ div.container.text-center {
 .email-address:hover {
   color: var(---link-hover-color);
 }
+button {
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 auto;
+  border: solid 0.5px #fc74c36b;
+  box-shadow: var(---box-shadow-links);
+}
 
 .social {
   display: flex;
-  max-width: 119px;
-  font-family: var(---alternative-font-family);
-  margin-bottom: 20px;
+  max-width: 60px;
+  font-size: 38px;
+  padding: 13px;
 }
-
-img.img-fluid.instagram,
-img.img-fluid.twitter,
-img.img-fluid.github {
-  max-width: 71px;
-  max-height: 62px;
-  padding: 8px;
+.fa-brands {
+  color: #9e115c;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 10px;
 }
 
 .row.icons {
@@ -371,19 +386,6 @@ img.img-fluid.github {
   text-align: center;
   color: var(---accent-font-color);
   letter-spacing: 0px;
-}
-
-.attribute {
-  display: flex;
-  font-family: var(---primary-font-family);
-  padding: 30px;
-  align-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
-
-.attribute-link {
-  font-size: 13px;
 }
 
 @media (max-width: 992px) {
