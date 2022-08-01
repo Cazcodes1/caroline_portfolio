@@ -337,7 +337,7 @@ ul.navbar-nav:hover {
   div.certificates {
     display: flex;
     padding: 66px;
-    max-width: 1055px;
+    max-width: px;
     box-shadow: var(---box-shadow-links);
     background-color: #0000000a;
   }
@@ -348,7 +348,7 @@ ul.navbar-nav:hover {
 
 div.certificates {
   display: flex;
-  max-width: 1055px;
+  max-width: 992px;
   box-shadow: var(---box-shadow-links);
   background-color: #0000000a;
 }
