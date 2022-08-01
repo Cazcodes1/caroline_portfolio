@@ -196,7 +196,6 @@ div.container-fluid {
 }
 .link-linktree {
   padding: 0;
-
   margin: auto;
   max-width: fit-content;
   text-align: center;
@@ -436,7 +435,7 @@ button {
     text-align: right;
   }
   .hello {
-    margin-right: 52px;
+    margin-right: 14px;
     margin-top: 34px;
     margin-bottom: 9px;
   }
@@ -485,7 +484,7 @@ button {
   #caroline {
     margin: 32px 0px 0px 12px;
     box-shadow: var(---box-shadow-links);
-    max-width: 70%;
+    max-width: 80%;
   }
   div.main {
     flex-direction: column;
