@@ -243,6 +243,7 @@ div.certificates {
   box-shadow: var(---box-shadow-links);
   background-color: #0000000a;
   margin-top: 25px;
+  margin-top: 52px;
 }
 
 .achievements {
@@ -468,6 +469,9 @@ button {
     line-height: 35px;
     padding: 11px;
   }
+  p.thanks {
+    font-size: 21px;
+  }
   .linktree {
     font-size: large;
     color: #9e115c;
@@ -501,10 +505,5 @@ button {
   }
   .achievements {
     font-size: 15px;
-  }
-}
-@media (max-width: 992px) {
-  p.thanks {
-    font-size: 21px;
   }
 }
