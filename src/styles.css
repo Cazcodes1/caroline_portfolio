@@ -227,6 +227,14 @@ ul.navbar-nav:hover {
   text-align: center;
 }
 
+div.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 52px;
+  margin-bottom: -38px;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -331,15 +339,22 @@ ul.navbar-nav:hover {
     font-family: var(---alternative-font-family);
   }
   #caroline {
-    margin: 70px 0px 0px -167px;
+    margin: 32px 0px 0px 12px;
     box-shadow: var(---box-shadow-links);
   }
+  div.main {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin-bottom: -11px;
+  }
+
   div.certificates {
     display: flex;
-    padding: 66px;
-    max-width: px;
     box-shadow: var(---box-shadow-links);
     background-color: #0000000a;
+    justify-content: center;
+    padding: 65px;
   }
   .achievements {
     font-size: 16px;
@@ -348,19 +363,20 @@ ul.navbar-nav:hover {
 
 div.certificates {
   display: flex;
-  max-width: 992px;
+  justify-content: center;
   box-shadow: var(---box-shadow-links);
   background-color: #0000000a;
+  margin-top: 25px;
 }
 
 .achievements {
   display: flex;
-  align-items: center;
   font-family: var(---alternative-font-family);
-  justify-content: center;
-  margin-bottom: 40px;
-  margin-top: -25px;
   letter-spacing: -1px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 @media (max-width: 992px) {
