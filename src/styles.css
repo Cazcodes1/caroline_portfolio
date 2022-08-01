@@ -221,6 +221,7 @@ div.container-fluid {
 
 .para-me {
   font-family: var(---alternative-font-family);
+  margin-top: 0;
 }
 
 .coded-by {
@@ -479,6 +480,7 @@ button {
   }
   .para-me {
     font-family: var(---alternative-font-family);
+    margin-top: 7px;
   }
   #caroline {
     margin: 32px 0px 0px 12px;
