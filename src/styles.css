@@ -6,10 +6,14 @@
   ---letter-spacing: 1px;
   --third-font-family: "Baloo Paaji 2", cursive;
   ---primary-font-color: #ffffff;
-  ---box-shadow-links: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  ---box-shadow-links: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
   ---link-hover-color: #a1005e;
   ---accent-font-color: hsl(325, 52%, 47%);
   ---heading-colour: #ffc4e4;
+  ---button-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px,
+    rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
+    rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 body {
@@ -37,6 +41,13 @@ span.navbar-toggler-icon {
 }
 button.navbar-toggler {
   margin-left: 27px;
+  padding: px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: solid 0.5px #faedf46b;
+  box-shadow: var(---button-shadow);
 }
 
 .navbar-cc {
@@ -182,7 +193,7 @@ div.container-fluid {
   text-decoration: none;
   text-transform: capitalize;
   background-color: #ffffff5c;
-  box-shadow: var(---box-shadow-links);
+  box-shadow: var(---button-shadow);
 }
 .link:hover {
   color: var(---link-hover-color) !important;
@@ -215,7 +226,7 @@ div.container-fluid {
   text-decoration: none;
   text-transform: capitalize;
   background-color: #ffffff5c;
-  box-shadow: var(---box-shadow-links);
+  box-shadow: var(---button-shadow);
 }
 
 .link-linktree:hover {
@@ -234,6 +245,9 @@ a.github-link {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #919191;
   text-align: center;
+  font-size: 13px;
+  margin-top: -2px;
+  line-height: 1;
 }
 
 div.main {
@@ -288,7 +302,6 @@ div.certificates {
   margin: -2px 0 5px;
   padding: 25px;
   line-height: 29px;
-
   font-size: 19px;
   font-family: var(---alternative-font-family);
   text-align: center;
@@ -344,17 +357,6 @@ h2.social-heading {
 
 .email-address:hover {
   color: var(---link-hover-color);
-}
-
-button {
-  padding: 18px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin: 0 auto;
-  border: solid 0.5px #faedf46b;
-  box-shadow: var(---box-shadow-links);
 }
 
 .social {
@@ -420,6 +422,7 @@ button {
     display: none;
   }
   .headings {
+    font-size: 23px;
     margin-top: 0;
   }
   .mb-3 {
@@ -486,7 +489,7 @@ button {
   .linktree {
     font-size: large;
     color: var(---primary-font-color);
-    padding: 19px;
+    padding: 7px;
     line-height: 25px;
   }
   .link-linktree {
