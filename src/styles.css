@@ -41,7 +41,7 @@ span.navbar-toggler-icon {
 }
 button.navbar-toggler {
   margin-left: 27px;
-  padding: px;
+
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -171,6 +171,10 @@ div.container-fluid {
 .image-lp {
   max-width: 600px;
 }
+.rounded {
+  --bs-border-radius: 11px;
+}
+
 .link {
   letter-spacing: -1px;
   font-size: 14px;
@@ -257,14 +261,9 @@ div.main {
   margin-top: 52px;
   margin-bottom: -38px;
 }
-
-div.certificates {
-  display: flex;
-  justify-content: center;
-  box-shadow: var(---box-shadow-links);
-  background-color: #0000000a;
-  margin-top: 25px;
-  margin-top: 52px;
+#caroline {
+  border-radius: 10px;
+  box-shadow: var(---button-shadow);
 }
 
 .achievements {
@@ -279,13 +278,22 @@ div.certificates {
   color: #ececec;
 }
 
+div.certificates {
+  display: flex;
+  justify-content: center;
+  box-shadow: var(---box-shadow-links);
+  background-color: #0000000a;
+  margin-top: 25px;
+  margin-top: 52px;
+}
+
 .contact-information {
   border-style: inset;
   border: 0.5px solid rgb(0 0 0 / 15%);
   border-radius: 10px;
   margin-top: 80px;
   margin-bottom: 20px;
-  background: rgb(251 222 238 / 24%) 30%;
+  background: #e9ecef30;
   box-shadow: var(---box-shadow-links);
 }
 
@@ -296,6 +304,15 @@ div.certificates {
   font-size: 19px;
   font-family: var(---alternative-font-family);
   text-align: center;
+}
+button.email-button {
+  margin: 0 auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  border: solid 0.5px #faedf46b;
+  box-shadow: var(---button-shadow);
+  padding: 12px;
 }
 
 #social-contact {
@@ -345,7 +362,7 @@ h2.social-heading {
 
 .email-address {
   display: flex;
-  color: var(---accent-font-color);
+  color: #c774a8;
   font-size: 17px;
   font-family: var(--third-font-family);
   text-decoration: none;
@@ -472,8 +489,9 @@ h2.social-heading {
     font-size: 37px !important;
   }
   .contact-information {
-    background: #ffc4e426;
+    background: #e9ecef30;
   }
+
   .social {
     font-size: 42px;
     padding: 10px;
@@ -509,7 +527,9 @@ h2.social-heading {
     align-items: center;
     margin-bottom: -11px;
   }
-
+  div.container-fluid {
+    padding: 0px;
+  }
   div.certificates {
     display: flex;
     box-shadow: var(---box-shadow-links);
