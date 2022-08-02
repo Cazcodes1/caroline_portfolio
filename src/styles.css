@@ -2,17 +2,18 @@
   ---section-bg-color: rgb(13 110 253 / 0%);
   ---primary-font-family: "Rubik", sans-serif;
   ---secondary-font-family: "Comfortaa", cursive;
-  ---alternative-font-family: "Cutive Mono", monospace;
-  ---letter-spacing: -2px;
-  --third-font-family: "Fredericka the Great", cursive;
-  ---primary-font-color: #484e60;
+  ---alternative-font-family: "Rubik", sans-serif;
+  ---letter-spacing: 1px;
+  --third-font-family: "Baloo Paaji 2", cursive;
+  ---primary-font-color: #ffffff;
   ---box-shadow-links: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  ---link-hover-color: #fc74c3;
+  ---link-hover-color: #a1005e;
   ---accent-font-color: hsl(325, 52%, 47%);
+  ---heading-colour: #ffc4e4;
 }
 
 body {
-  background: #bbbbbb57;
+  background: #484e5f;
 }
 .logo {
   max-height: 250px;
@@ -84,15 +85,16 @@ h3 {
   margin-right: 10px;
   font-family: var(--third-font-family);
   font-size: 55px;
-  color: hwb(0deg 0% 100% / 78%);
+  color: var(---primary-font-color);
 }
 
 p {
   font-size: 18px;
   margin: 20px 25px;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   text-align: justify;
-  line-height: 20px;
+  line-height: 27px;
+  color: #ececec;
 }
 
 .hello {
@@ -105,7 +107,7 @@ p {
 }
 
 .name {
-  color: #ca158e;
+  color: var(---heading-colour);
 }
 
 .container-fluid {
@@ -145,7 +147,8 @@ div.container-fluid {
   font-size: 26px;
   font-weight: 700;
   font-family: var(--third-font-family);
-  color: var(---primary-font-color);
+  letter-spacing: 1px;
+  color: var(---heading-colour);
   line-height: var(---line-height);
 }
 
@@ -172,11 +175,12 @@ div.container-fluid {
   border-style: line;
   color: var(---primary-font-color);
   font-weight: 800;
+  letter-spacing: 1.5px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background-color: #ffc5e65c;
+  background-color: #ffffff5c;
   box-shadow: var(---box-shadow-links);
 }
 .link:hover {
@@ -190,8 +194,8 @@ div.container-fluid {
   margin-top: 0;
   align-items: center;
   flex-direction: column;
-  font-family: var(--third-font-family);
-  color: #c9168e;
+  font-family: var(---alternative-font-family);
+  color: #ececec;
   font-size: 20px;
 }
 .link-linktree {
@@ -202,13 +206,14 @@ div.container-fluid {
   border-style: line;
   font-family: var(---alternative-font-family);
   font-size: 15px;
+  letter-spacing: 1px;
   color: var(---primary-font-color);
   font-weight: 800;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background-color: #ffc5e65c;
+  background-color: #ffffff5c;
   box-shadow: var(---box-shadow-links);
 }
 
@@ -223,7 +228,8 @@ div.container-fluid {
   margin-top: 0;
 }
 
-.coded-by {
+.coded-by,
+a.github-link {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #919191;
   text-align: center;
@@ -251,9 +257,11 @@ div.certificates {
   font-family: var(---alternative-font-family);
   letter-spacing: -1px;
   flex-direction: column;
+  letter-spacing: 1px;
   justify-content: center;
   align-content: center;
   align-items: center;
+  color: #ececec;
 }
 
 .contact-information {
@@ -270,7 +278,6 @@ div.certificates {
   margin: 26px 0 5px;
   padding: 36px;
   line-height: 29px;
-  letter-spacing: -2px;
   font-size: 19px;
   font-family: var(---alternative-font-family);
   text-align: center;
@@ -280,7 +287,7 @@ div.certificates {
   margin: -2px 0 5px;
   padding: 25px;
   line-height: 29px;
-  letter-spacing: -2px;
+
   font-size: 19px;
   font-family: var(---alternative-font-family);
   text-align: center;
@@ -302,7 +309,7 @@ div.container.text-center {
 .social-heading {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(---heading-colour);
   font-size: 28px;
   text-decoration: none;
   font-family: var(--third-font-family);
@@ -319,12 +326,11 @@ h2.social-heading {
 .how-to-contact {
   margin-top: 55px;
   font-size: 50px;
-  color: var(---accent-font-color);
+  color: var(---heading-colour);
 }
 
 .email-address {
   display: flex;
-
   color: var(---accent-font-color);
   font-size: 17px;
   font-family: var(--third-font-family);
@@ -340,11 +346,12 @@ h2.social-heading {
 }
 button {
   padding: 18px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin: 0 auto;
-  border: solid 0.5px #fc74c36b;
+  border: solid 0.5px #faedf46b;
   box-shadow: var(---box-shadow-links);
 }
 
@@ -355,7 +362,7 @@ button {
   padding: 13px;
 }
 .fa-brands {
-  color: #9e115c;
+  color: var(---heading-colour);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   border-radius: 10px;
 }
@@ -370,7 +377,7 @@ button {
   padding: 36px;
   font-size: 30px;
   text-align: center;
-  color: var(---accent-font-color);
+  color: var(---primary-font-color);
   letter-spacing: 0px;
 }
 
@@ -459,6 +466,9 @@ button {
   .how-to-contact {
     font-size: 37px !important;
   }
+  .contact-information {
+    background: #ffc4e426;
+  }
   .social {
     font-size: 42px;
     padding: 10px;
@@ -473,7 +483,7 @@ button {
   }
   .linktree {
     font-size: large;
-    color: #9e115c;
+    color: var(---primary-font-color);
     padding: 19px;
     line-height: 25px;
   }
