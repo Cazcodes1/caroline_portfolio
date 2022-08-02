@@ -470,13 +470,12 @@ h2.social-heading {
     margin-bottom: 9px;
   }
   .nav-link {
-    font-size: 18px;
-    font-size: 23px;
+    font-size: 17px;
     margin-left: -26px;
     margin-top: -34px;
     margin-bottom: -28px;
     padding: 54px;
-    line-height: 36px;
+    line-height: 26px;
   }
   .img-fluid {
     max-inline-size: 113%;
