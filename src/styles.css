@@ -83,6 +83,10 @@ ul.navbar-nav:hover {
   color: #f86eb8;
 }
 
+.nav-item {
+  margin-bottom: 0;
+}
+
 h1 {
   color: var(---primary-font-color);
 }
@@ -253,6 +257,9 @@ a.github-link {
   margin-top: -2px;
   line-height: 1;
 }
+a.github-link {
+  text-decoration: underline;
+}
 
 div.main {
   display: flex;
@@ -402,6 +409,17 @@ h2.social-heading {
   letter-spacing: 0px;
 }
 
+a.top-page {
+  color: var(---heading-colour);
+  text-decoration: none;
+  font-size: 54px;
+}
+a {
+  color: #ffb9e5;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -438,6 +456,9 @@ h2.social-heading {
   .logo {
     display: none;
   }
+  a.top-page {
+    font-size: 24px !important;
+  }
   .headings {
     font-size: 23px;
     margin-top: 0;
@@ -459,7 +480,8 @@ h2.social-heading {
   }
   h3 {
     font-size: 25px;
-    margin-right: -7px;
+    margin-right: -13px;
+    margin-bottom: 0px;
   }
   .name {
     text-align: right;
@@ -469,14 +491,16 @@ h2.social-heading {
     margin-top: 34px;
     margin-bottom: 9px;
   }
+
   .nav-link {
-    font-size: 17px;
+    font-size: 19px;
     margin-left: -26px;
     margin-top: -34px;
     margin-bottom: -28px;
-    padding: 54px;
-    line-height: 26px;
+    padding: 59px;
+    line-height: 15px;
   }
+
   .img-fluid {
     max-inline-size: 113%;
     margin-left: -21px;
