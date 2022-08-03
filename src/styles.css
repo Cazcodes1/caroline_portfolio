@@ -398,7 +398,9 @@ h2.social-heading {
 .row.icons {
   flex-direction: row;
 }
-a.icon {font-size: 39px;}
+a.icon {
+  font-size: 39px;
+}
 
 .thanks {
   font-family: var(--third-font-family);
@@ -566,6 +568,5 @@ a {
   }
   .achievements {
     font-size: 15px;
-  }
   }
 }
