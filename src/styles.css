@@ -398,6 +398,7 @@ h2.social-heading {
 .row.icons {
   flex-direction: row;
 }
+a.icon {font-size: 39px;}
 
 .thanks {
   font-family: var(--third-font-family);
@@ -417,7 +418,7 @@ a.top-page {
 a {
   color: #ffb9e5;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media (min-width: 992px) {
@@ -519,6 +520,9 @@ a {
     font-size: 42px;
     padding: 10px;
   }
+  a.icon {
+    font-size: 36px;
+  }
   .thanks {
     letter-spacing: 2px;
     line-height: 35px;
@@ -562,5 +566,6 @@ a {
   }
   .achievements {
     font-size: 15px;
+  }
   }
 }
